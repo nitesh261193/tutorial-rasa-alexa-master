@@ -1,0 +1,36 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_happy
+- utter_goodbye
+- utter_goodbye_console
+- utter_iamabot
+
+responses:
+  utter_greet:
+  - text: "Hey! I am so happy to talk with you, how may i help you? "
+
+  utter_cheer_up:
+  - text: "I’m sorry to hear you’re feeling like that. We can go through some exercises which will hopefully make you feel better!
+            Would you like to hear something that might make you feel happier"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "I am angry with you because you didn't talk much with me"
+
+  utter_goodbye_console:
+  - text: "Sorry to hear that. I hope your day improves. Bye"
+
+  utter_iamabot:
+  - text: "I am afraid to tell you that i am bot. I whisper due to afraid"
